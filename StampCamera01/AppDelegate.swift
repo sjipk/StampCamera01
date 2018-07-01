@@ -13,6 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    // Stampクラスのインスタンスを格納するクラス
+    var stampArray:[Stamp] = []
+    // 新しいスタンプが追加されたかどうかを判定する
+    var isNewStampAdded = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
