@@ -12,6 +12,8 @@
 		CE18FE2020E88AFE00608511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE18FE1E20E88AFE00608511 /* Main.storyboard */; };
 		CE18FE2520E88B0100608511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE18FE2320E88B0100608511 /* LaunchScreen.storyboard */; };
 		CE18FE2D20E8903F00608511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE18FE2C20E8903F00608511 /* Assets.xcassets */; };
+		CE18FE2F20E8A01300608511 /* StampSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18FE2E20E8A01300608511 /* StampSelectViewController.swift */; };
+		CE18FE3120E8A24000608511 /* Stamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE18FE3020E8A23F00608511 /* Stamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CE18FE2420E88B0100608511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE18FE2620E88B0100608511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE18FE2C20E8903F00608511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE18FE2E20E8A01300608511 /* StampSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StampSelectViewController.swift; sourceTree = "<group>"; };
+		CE18FE3020E8A23F00608511 /* Stamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		CE18FE1920E88AFE00608511 /* StampCamera01 */ = {
 			isa = PBXGroup;
 			children = (
-				CE18FE2C20E8903F00608511 /* Assets.xcassets */,
 				CE18FE1A20E88AFE00608511 /* AppDelegate.swift */,
 				CE18FE1C20E88AFE00608511 /* ViewController.swift */,
+				CE18FE2E20E8A01300608511 /* StampSelectViewController.swift */,
+				CE18FE3020E8A23F00608511 /* Stamp.swift */,
+				CE18FE2C20E8903F00608511 /* Assets.xcassets */,
 				CE18FE1E20E88AFE00608511 /* Main.storyboard */,
 				CE18FE2320E88B0100608511 /* LaunchScreen.storyboard */,
 				CE18FE2620E88B0100608511 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE18FE1D20E88AFE00608511 /* ViewController.swift in Sources */,
+				CE18FE2F20E8A01300608511 /* StampSelectViewController.swift in Sources */,
 				CE18FE1B20E88AFE00608511 /* AppDelegate.swift in Sources */,
+				CE18FE3120E8A24000608511 /* Stamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
