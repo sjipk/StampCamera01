@@ -288,7 +288,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GJ2SMU4PQH;
 				INFOPLIST_FILE = StampCamera01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,6 +297,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sjipk.StampCamera01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "585e5f2b-c211-42e2-80ce-b08613aab0ad";
+				PROVISIONING_PROFILE_SPECIFIER = WildcardApp;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,7 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = GJ2SMU4PQH;
 				INFOPLIST_FILE = StampCamera01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +317,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.sjipk.StampCamera01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "585e5f2b-c211-42e2-80ce-b08613aab0ad";
+				PROVISIONING_PROFILE_SPECIFIER = WildcardApp;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
